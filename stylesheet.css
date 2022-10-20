@@ -1,3 +1,32 @@
 article{
-  border: 2px solid black;
+  border: 2pt solid black;
+  width: 75%;
+  height: 15%;
+}
+
+article>p{
+  border: 2pt dashed green;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 2pt;
+
+}
+
+.welcome-greeting{
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  border: 5pt solid black;
+  padding-left: 150pt;
+  text-align: center;
+}
+
+.new-article{
+  border: 1pt solid blue;
+  width: auto;
+  height: auto;
+  min-height: 150pt;
+  max-height: 1500pt;
+  min-width: 100pt;
+  max-width: 1000pt;
 }
