@@ -1,0 +1,93 @@
+* { box-sizing: border-box; }
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+body{
+  margin: 10px;
+  max-width: 750px;
+  max-height: 1250px;
+  border: 2px solid rgb(202, 202, 202);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.whole-page{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 25% 25% 25% 25%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  padding: 10px;
+  column-gap: 5px;
+}
+
+.right-column{
+  border-top: 5px solid navy;
+  grid-column: 2/3;
+  grid-row: 1/5;
+  /* background-color: rgb(255, 203, 197); */
+  padding: 5px;
+  height: auto;
+}
+
+.left-column{
+  /* border-right: 2px solid navy; */
+  grid-column: 1/2;
+  grid-row: 1/5;
+  background-color: rgb(127, 127, 223);
+  padding: 10px;
+  height: 50vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+
+}
+
+.work-place{
+  border-bottom: 2px solid navy;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+}
+
+
+
+.job-articles{
+  border-bottom: 4px solid black;
+}
+
+.social-media{
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  padding-left: 5px;
+}
+
+.top-left-pic{
+  display: grid;
+  grid-template-columns: 33% 66%;
+}
+
+.headshot{
+  max-height: 250px;
+  max-width: 170px;
+  padding: 20px;
+}
+
+
+.twitter-logo, .instagram-logo, .facebook-logo{
+  max-width: 50px;
+  max-height: 50px;
+  padding-bottom: 15px;
+  /* padding-left: 5px; */
+  margin-left: 70px;
+}
+
+.twitter-logo{
+  margin-left: 75px;
+}
